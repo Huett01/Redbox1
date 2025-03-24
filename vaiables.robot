@@ -47,3 +47,22 @@ ${internal_board}    menu-link-internal-board
 ${internal_board_codtype_dropDownList}    cod-type
 ${internal_board_with_cod_option}    op-with-cod
 ${shipment_id_file}    shipment_id.txt
+${organizations}    xpath=//*[text()='Organizations']
+${organizations_list}    xpath=//*[text()='List']
+${organizations_list_search_box}    customSearch
+${organizations_merchant notes}    xpath=//*[text()='Merchant Notes']
+${bank_changes_tracking}    xpath=//*[text()='Bank Changes Tracking']
+${bank_changes_tracking_search_box}    customSearch
+${merchant_activities}    xpath=//*[text()='Merchant activities']
+${merchant_activities_search_box}    customSearch
+${suspension}     xpath=//*[text()='Suspension']
+${suspension_search_box}    customSearch
+${Pending_activation}    xpath=//*[text()='Pending activation']
+${pending_activation_search_box}    customSearch
+${RedBox_offers}    xpath=//*[text()='RedBox offers']
+${RedBox_offers_search_box}    customSearch
+${Global_box}     xpath=//*[text()='Global Box']
+${Global_box_shipments}    //li[*[text()='Global Box']]//li[*[text()='Shipments']]
+${shipment_search_mainifest_box}    customSearchShipment
+${Packages}       xpath=//*[text()='Packages']
+${Packages_seach_box}    customSearchShipment
