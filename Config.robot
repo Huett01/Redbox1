@@ -1,5 +1,7 @@
 *** Settings ***
+Library           Selenium2Library
 Resource          Environment.robot
+Resource          vaiables.robot
 
 *** Variables ***
 ${ENV}            stage    # Môi trường mặc định

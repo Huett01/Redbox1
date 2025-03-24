@@ -66,3 +66,9 @@ ${Global_box_shipments}    //li[*[text()='Global Box']]//li[*[text()='Shipments'
 ${shipment_search_mainifest_box}    customSearchShipment
 ${Packages}       xpath=//*[text()='Packages']
 ${Packages_seach_box}    customSearchShipment
+${warehouses}     xpath=//*[text()='Warehouses']
+${warehouses_list}    /redbox/warehouse-management/redbox-warehouse
+${warehouses_shipment_scan_tracking}    /redbox/support-tool/shipment-tracking-tool
+${warehouses_shipment_scan_tracking_search_box}    customSearch
+${warehouses_returning_shipment}    /redbox/warehouse-management/returning-shipment
+${warehouses_returning_shipment_seach_box}    customSearch
