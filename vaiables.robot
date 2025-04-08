@@ -45,13 +45,6 @@ ${internal_board}    menu-link-internal-board
 ${internal_board_codtype_dropDownList}    cod-type
 ${internal_board_with_cod_option}    op-with-cod
 ${shipment_id_file}    shipment_id.txt
-${storage}        menu-storage
-${storage_shipments}    menu-link-storage-shipments
-${storage_shipments_search_box}    customSearch
-${storage_settings}    menu-link-storage-settings
-${storage_settings_search_box}    customSearch
-${organizations}    xpath=//*[text()='Organizations']
-${organizations_list}    xpath=//*[text()='List']
 ${warehouses}     xpath=//*[text()='Warehouses']
 ${warehouses_list}    /redbox/warehouse-management/redbox-warehouse
 ${warehouses_shipment_scan_tracking}    /redbox/support-tool/shipment-tracking-tool
@@ -76,3 +69,21 @@ ${express_locker_to_door}    menu-link-express-ltd
 ${express_ltd_searchBox}    customSearchShipment
 ${express_settings}    menu-link-express-settings
 ${express_settings_domesticPrice}    domesticPrice
+${organizations}    xpath=//*[text()='Organizations']
+${organizations_list}    xpath=//*[text()='List']
+${organizations_list_search_box}    customSearch
+${organizations_merchant notes}    xpath=//*[text()='Merchant Notes']
+${bank_changes_tracking}    xpath=//*[text()='Bank Changes Tracking']
+${bank_changes_tracking_search_box}    customSearch
+${merchant_activities}    xpath=//*[text()='Merchant activities']
+${merchant_activities_search_box}    customSearch
+${suspension}     xpath=//*[text()='Suspension']
+${suspension_search_box}    customSearch
+${Pending_activation}    xpath=//*[text()='Pending activation']
+${pending_activation_search_box}    customSearch
+${RedBox_offers}    xpath=//*[text()='RedBox offers']
+${RedBox_offers_search_box}    customSearch
+${Global_box}     xpath=//*[text()='Global Box']
+${Global_box_shipments}    //li[*[text()='Global Box']]//li[*[text()='Shipments']]
+${shipment_search_mainifest_box}    customSearchShipment
+${Packages}       xpath=//*[text()='Packages']
