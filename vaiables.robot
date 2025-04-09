@@ -87,3 +87,4 @@ ${Global_box}     xpath=//*[text()='Global Box']
 ${Global_box_shipments}    //li[*[text()='Global Box']]//li[*[text()='Shipments']]
 ${shipment_search_mainifest_box}    customSearchShipment
 ${Packages}       xpath=//*[text()='Packages']
+${Global_MAWB Monitoring}    //li[*[text()='Global Box']]//li[*[text()='MAWB Monitoring']]
