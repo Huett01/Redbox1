@@ -333,3 +333,4 @@ Check Global MAWB Monitoring
     Sleep    5s
     Access page    ${Global_box}    ${Global_MAWB Monitoring}
     Verify element exits    //button[contains(text(),'Import MAWB')]
+    Sleep    5s
